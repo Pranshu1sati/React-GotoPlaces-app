@@ -12,8 +12,8 @@ function App() {
       <Layout>
       <Routes>
       <Route path='/' element={<Allmeetups/>}/>
-      <Route path='/new' element={<NewMeetups></NewMeetups>}></Route>
-      <Route path='/fav' element={<Favorites/>}></Route>
+      <Route path='/React-GotoPlaces-app/new' element={<NewMeetups></NewMeetups>}></Route>
+      <Route path='/React-GotoPlaces-app/fav' element={<Favorites/>}></Route>
       </Routes>
       </Layout>
     </div>
