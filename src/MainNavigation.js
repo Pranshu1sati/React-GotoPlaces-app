@@ -14,7 +14,7 @@ const MainNavigation = () => {
         <Navbar.Collapse>
             <Nav>
                 
-                <Nav.Link><Link to ="/">All Destinations</Link></Nav.Link>
+                <Nav.Link><Link to ="/React-GotoPlaces-app/">All Destinations</Link></Nav.Link>
                 <Nav.Link><Link to ="/new">Add New Destinations</Link></Nav.Link>
                 <Nav.Link><Link to ="/fav">Fav Destinations 
                       <span className={classes.badge}>{favCtx.totalFavorites}</span>
